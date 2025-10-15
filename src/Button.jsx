@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
-import { addMoney } from "./Store"
-import {removeMoney} from "./Store"
+import { addMoney } from "./store"
+import {removeMoney} from "./store"
 
 export default function Button() {
   const dispatch = useDispatch();
